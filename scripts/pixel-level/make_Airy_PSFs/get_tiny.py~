@@ -1,0 +1,53 @@
+import commands
+from numpy import *
+import pyfits
+from scipy.interpolate import RectBivariateSpline
+
+def make_file(wave, root = ""):
+    psfroot = "%05i_%s" % (wave, root)
+    lines = orig_lines.replace("OOOOO", psfroot)
+    lines = lines.replace("MMMMM", "%.4f" % (wave/10000.))
+    
+    f = open("tmp.par", 'w')
+    f.write(lines)
+    f.close()
+
+    commands.getoutput("/Applications/tinytim-7.5/tiny2 tmp.par")
+    return psfroot + "00.fits"
+
+print "This is a dumb hack to get PSFS while we wait for better ones."
+f = open("tiny.par")
+orig_lines = f.read()
+f.close()
+commands.getoutput("rm -f *.fits")
+
+waves = exp(arange(log(3000.), log(30001.), log(10.)/23.))
+
+for wave in waves:
+    print wave
+    flname = make_file(wave)
+
+    f = pyfits.open(flname)
+    ttdat = f[0].data
+    f.close()
+    ttdat /= ttdat.sum()
+    
+    [ind_i], [ind_j] = where(ttdat == ttdat.max())
+    central_pix = ttdat[ind_i - 150: ind_i + 151, ind_j - 150:ind_j + 151]
+
+    old_scale = 0.007568
+    new_scale = 0.005
+
+    interpfn = RectBivariateSpline(arange(-150., 151)*old_scale,
+                                   arange(-150., 151)*old_scale, central_pix,
+                                   kx=1, ky=1, s=0)
+
+    new_201 = interpfn(arange(-150., 151)*new_scale, arange(-150., 151)*new_scale)
+
+    f = pyfits.open(flname)
+    f[0].data = new_201*(new_scale/old_scale)**2.
+    print f[0].data.sum()
+    f.writeto(flname.replace("_00.fits", "_5mas.fits"))
+    f.close()
+
+

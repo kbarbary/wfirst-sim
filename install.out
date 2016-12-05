@@ -1,0 +1,896 @@
+Fetching package metadata .......
+Solving package specifications: ..........
+Using Anaconda Cloud api site https://api.anaconda.org
+
+Package plan for installation in environment /global/common/cori/contrib/wfirst/wfirst_sim_v4/wfirst-env:
+
+The following NEW packages will be INSTALLED:
+
+    numpy: 1.11.2-py27_0 (soft-link)
+
+Proceed ([y]/n)? 
+Linking packages ...
+[                    ]|                                                  |   0%[numpy               ]|                                                  |   0%[      COMPLETE      ]|##################################################| 100%
+#
+# To activate this environment, use:
+# $ source activate /global/common/cori/contrib/wfirst/wfirst_sim_v4/wfirst-env
+#
+# To deactivate this environment, use:
+# $ source deactivate
+#
+Using Anaconda Cloud api site https://api.anaconda.org
+Fetching package metadata .........
+Solving package specifications: ..........
+
+Package plan for installation in environment /global/common/cori/contrib/wfirst/wfirst_sim_v4/wfirst-env:
+
+The following packages will be downloaded:
+
+    package                    |            build
+    ---------------------------|-----------------
+    sncosmo-1.3.2              |           py27_0         625 KB  OpenAstronomy
+
+The following NEW packages will be INSTALLED:
+
+    sncosmo: 1.3.2-py27_0 OpenAstronomy
+
+Proceed ([y]/n)? 
+Fetching packages ...
+sncosmo-1.3.2-   0% |                              | ETA:  --:--:--   0.00  B/ssncosmo-1.3.2-   2% |                               | ETA:  0:00:02 254.84 kB/ssncosmo-1.3.2-   5% |#                              | ETA:  0:00:02 252.64 kB/ssncosmo-1.3.2-   7% |##                             | ETA:  0:00:01 377.50 kB/ssncosmo-1.3.2-  10% |###                            | ETA:  0:00:01 336.29 kB/ssncosmo-1.3.2-  12% |###                            | ETA:  0:00:01 352.54 kB/ssncosmo-1.3.2-  15% |####                           | ETA:  0:00:01 377.77 kB/ssncosmo-1.3.2-  17% |#####                          | ETA:  0:00:01 439.92 kB/ssncosmo-1.3.2-  20% |######                         | ETA:  0:00:01 439.57 kB/ssncosmo-1.3.2-  23% |#######                        | ETA:  0:00:01 451.72 kB/ssncosmo-1.3.2-  25% |#######                        | ETA:  0:00:00 501.05 kB/ssncosmo-1.3.2-  28% |########                       | ETA:  0:00:00 495.86 kB/ssncosmo-1.3.2-  30% |#########                      | ETA:  0:00:00 503.13 kB/ssncosmo-1.3.2-  33% |##########                     | ETA:  0:00:00 542.63 kB/ssncosmo-1.3.2-  35% |###########                    | ETA:  0:00:00 583.54 kB/ssncosmo-1.3.2-  38% |###########                    | ETA:  0:00:00 573.23 kB/ssncosmo-1.3.2-  40% |############                   | ETA:  0:00:00 574.75 kB/ssncosmo-1.3.2-  43% |#############                  | ETA:  0:00:00 608.31 kB/ssncosmo-1.3.2-  46% |##############                 | ETA:  0:00:00 643.31 kB/ssncosmo-1.3.2-  48% |###############                | ETA:  0:00:00 678.34 kB/ssncosmo-1.3.2-  51% |###############                | ETA:  0:00:00 663.73 kB/ssncosmo-1.3.2-  53% |################               | ETA:  0:00:00 659.56 kB/ssncosmo-1.3.2-  56% |#################              | ETA:  0:00:00 690.18 kB/ssncosmo-1.3.2-  58% |##################             | ETA:  0:00:00 720.70 kB/ssncosmo-1.3.2-  61% |###################            | ETA:  0:00:00 750.69 kB/ssncosmo-1.3.2-  64% |###################            | ETA:  0:00:00 732.54 kB/ssncosmo-1.3.2-  66% |####################           | ETA:  0:00:00 761.03 kB/ssncosmo-1.3.2-  69% |#####################          | ETA:  0:00:00 754.03 kB/ssncosmo-1.3.2-  71% |######################         | ETA:  0:00:00 780.62 kB/ssncosmo-1.3.2-  74% |#######################        | ETA:  0:00:00 807.32 kB/ssncosmo-1.3.2-  76% |#######################        | ETA:  0:00:00 834.23 kB/ssncosmo-1.3.2-  79% |########################       | ETA:  0:00:00 813.47 kB/ssncosmo-1.3.2-  81% |#########################      | ETA:  0:00:00 838.21 kB/ssncosmo-1.3.2-  84% |##########################     | ETA:  0:00:00 829.06 kB/ssncosmo-1.3.2-  87% |##########################     | ETA:  0:00:00 853.26 kB/ssncosmo-1.3.2-  89% |###########################    | ETA:  0:00:00 877.81 kB/ssncosmo-1.3.2-  92% |############################   | ETA:  0:00:00 902.16 kB/ssncosmo-1.3.2-  94% |#############################  | ETA:  0:00:00 926.10 kB/ssncosmo-1.3.2-  97% |############################## | ETA:  0:00:00 950.38 kB/ssncosmo-1.3.2-  99% |############################## | ETA:  0:00:00 974.71 kB/ssncosmo-1.3.2- 100% |###############################| Time: 0:00:00 974.17 kB/s
+Extracting packages ...
+[                    ]|                                                  |   0%[sncosmo             ]|                                                  |   0%[      COMPLETE      ]|##################################################| 100%
+Linking packages ...
+[      COMPLETE      ]|                                                  |   0%[sncosmo             ]|                                                  |   0%[sncosmo             ]|                                                  |   0%[      COMPLETE      ]|##################################################| 100%
+Using Anaconda Cloud api site https://api.anaconda.org
+Fetching package metadata .........
+Solving package specifications: ..........
+
+Package plan for installation in environment /global/common/cori/contrib/wfirst/wfirst_sim_v4/wfirst-env:
+
+The following packages will be downloaded:
+
+    package                    |            build
+    ---------------------------|-----------------
+    sep-1.0.0                  |      np111py27_0         669 KB  OpenAstronomy
+
+The following NEW packages will be INSTALLED:
+
+    sep: 1.0.0-np111py27_0 OpenAstronomy
+
+Proceed ([y]/n)? 
+Fetching packages ...
+sep-1.0.0-np11   0% |                              | ETA:  --:--:--   0.00  B/ssep-1.0.0-np11   2% |                               | ETA:  0:00:02 253.75 kB/ssep-1.0.0-np11   4% |#                              | ETA:  0:00:02 252.70 kB/ssep-1.0.0-np11   7% |##                             | ETA:  0:00:01 378.03 kB/ssep-1.0.0-np11   9% |##                             | ETA:  0:00:01 335.87 kB/ssep-1.0.0-np11  11% |###                            | ETA:  0:00:01 314.58 kB/ssep-1.0.0-np11  14% |####                           | ETA:  0:00:01 376.94 kB/ssep-1.0.0-np11  16% |#####                          | ETA:  0:00:01 352.38 kB/ssep-1.0.0-np11  19% |#####                          | ETA:  0:00:01 401.83 kB/ssep-1.0.0-np11  21% |######                         | ETA:  0:00:01 451.10 kB/ssep-1.0.0-np11  23% |#######                        | ETA:  0:00:01 418.55 kB/ssep-1.0.0-np11  26% |########                       | ETA:  0:00:01 459.83 kB/ssep-1.0.0-np11  28% |########                       | ETA:  0:00:00 501.12 kB/ssep-1.0.0-np11  31% |#########                      | ETA:  0:00:01 466.24 kB/ssep-1.0.0-np11  33% |##########                     | ETA:  0:00:00 501.42 kB/ssep-1.0.0-np11  35% |###########                    | ETA:  0:00:00 536.71 kB/ssep-1.0.0-np11  38% |###########                    | ETA:  0:00:00 502.78 kB/ssep-1.0.0-np11  40% |############                   | ETA:  0:00:00 533.50 kB/ssep-1.0.0-np11  43% |#############                  | ETA:  0:00:00 564.36 kB/ssep-1.0.0-np11  45% |##############                 | ETA:  0:00:00 595.18 kB/ssep-1.0.0-np11  47% |##############                 | ETA:  0:00:00 626.05 kB/ssep-1.0.0-np11  50% |###############                | ETA:  0:00:00 586.18 kB/ssep-1.0.0-np11  52% |################               | ETA:  0:00:00 613.61 kB/ssep-1.0.0-np11  55% |#################              | ETA:  0:00:00 640.37 kB/ssep-1.0.0-np11  57% |#################              | ETA:  0:00:00 667.70 kB/ssep-1.0.0-np11  59% |##################             | ETA:  0:00:00 628.06 kB/ssep-1.0.0-np11  62% |###################            | ETA:  0:00:00 652.66 kB/ssep-1.0.0-np11  64% |####################           | ETA:  0:00:00 677.36 kB/ssep-1.0.0-np11  67% |####################           | ETA:  0:00:00 701.87 kB/ssep-1.0.0-np11  69% |#####################          | ETA:  0:00:00 726.07 kB/ssep-1.0.0-np11  71% |######################         | ETA:  0:00:00 685.42 kB/ssep-1.0.0-np11  74% |######################         | ETA:  0:00:00 707.37 kB/ssep-1.0.0-np11  76% |#######################        | ETA:  0:00:00 729.61 kB/ssep-1.0.0-np11  78% |########################       | ETA:  0:00:00 751.62 kB/ssep-1.0.0-np11  81% |#########################      | ETA:  0:00:00 773.79 kB/ssep-1.0.0-np11  83% |#########################      | ETA:  0:00:00 796.08 kB/ssep-1.0.0-np11  86% |##########################     | ETA:  0:00:00 818.30 kB/ssep-1.0.0-np11  88% |###########################    | ETA:  0:00:00 840.16 kB/ssep-1.0.0-np11  90% |############################   | ETA:  0:00:00 795.82 kB/ssep-1.0.0-np11  93% |############################   | ETA:  0:00:00 815.80 kB/ssep-1.0.0-np11  95% |#############################  | ETA:  0:00:00 836.11 kB/ssep-1.0.0-np11  98% |############################## | ETA:  0:00:00 856.43 kB/ssep-1.0.0-np11 100% |###############################| ETA:  0:00:00 872.45 kB/ssep-1.0.0-np11 100% |###############################| Time: 0:00:00 871.79 kB/s
+Extracting packages ...
+[                    ]|                                                  |   0%[sep                 ]|                                                  |   0%[      COMPLETE      ]|##################################################| 100%
+Linking packages ...
+[      COMPLETE      ]|                                                  |   0%[sep                 ]|                                                  |   0%[sep                 ]|                                                  |   0%[      COMPLETE      ]|##################################################| 100%
+Using Anaconda Cloud api site https://api.anaconda.org
+Fetching package metadata .........
+Solving package specifications: ..........
+
+Package plan for installation in environment /global/common/cori/contrib/wfirst/wfirst_sim_v4/wfirst-env:
+
+The following packages will be downloaded:
+
+    package                    |            build
+    ---------------------------|-----------------
+    pystan-2.8.0.0             |           py27_0        23.9 MB
+
+The following NEW packages will be INSTALLED:
+
+    pystan: 2.8.0.0-py27_0
+
+Proceed ([y]/n)? 
+Fetching packages ...
+pystan-2.8.0.0   0% |                              | ETA:  --:--:--   0.00  B/spystan-2.8.0.0   1% |                               | ETA:  0:00:02  11.43 MB/spystan-2.8.0.0   2% |                               | ETA:  0:00:01  13.68 MB/spystan-2.8.0.0   3% |                               | ETA:  0:00:01  14.95 MB/spystan-2.8.0.0   4% |#                              | ETA:  0:00:01  16.71 MB/spystan-2.8.0.0   5% |#                              | ETA:  0:00:01  18.49 MB/spystan-2.8.0.0   6% |#                              | ETA:  0:00:01  19.96 MB/spystan-2.8.0.0   7% |##                             | ETA:  0:00:01  21.51 MB/spystan-2.8.0.0   8% |##                             | ETA:  0:00:00  23.08 MB/spystan-2.8.0.0   9% |##                             | ETA:  0:00:00  24.50 MB/spystan-2.8.0.0  10% |###                            | ETA:  0:00:00  25.77 MB/spystan-2.8.0.0  11% |###                            | ETA:  0:00:00  26.90 MB/spystan-2.8.0.0  12% |###                            | ETA:  0:00:00  28.36 MB/spystan-2.8.0.0  13% |####                           | ETA:  0:00:00  29.61 MB/spystan-2.8.0.0  14% |####                           | ETA:  0:00:00  30.81 MB/spystan-2.8.0.0  15% |####                           | ETA:  0:00:00  31.78 MB/spystan-2.8.0.0  16% |#####                          | ETA:  0:00:00  32.58 MB/spystan-2.8.0.0  17% |#####                          | ETA:  0:00:00  33.61 MB/spystan-2.8.0.0  18% |#####                          | ETA:  0:00:00  34.62 MB/spystan-2.8.0.0  19% |######                         | ETA:  0:00:00  35.57 MB/spystan-2.8.0.0  20% |######                         | ETA:  0:00:00  36.51 MB/spystan-2.8.0.0  21% |######                         | ETA:  0:00:00  37.22 MB/spystan-2.8.0.0  23% |#######                        | ETA:  0:00:00  38.03 MB/spystan-2.8.0.0  24% |#######                        | ETA:  0:00:00  38.84 MB/spystan-2.8.0.0  25% |#######                        | ETA:  0:00:00  39.69 MB/spystan-2.8.0.0  26% |########                       | ETA:  0:00:00  40.45 MB/spystan-2.8.0.0  27% |########                       | ETA:  0:00:00  41.07 MB/spystan-2.8.0.0  28% |########                       | ETA:  0:00:00  41.80 MB/spystan-2.8.0.0  29% |#########                      | ETA:  0:00:00  42.50 MB/spystan-2.8.0.0  30% |#########                      | ETA:  0:00:00  43.15 MB/spystan-2.8.0.0  31% |#########                      | ETA:  0:00:00  43.85 MB/spystan-2.8.0.0  32% |##########                     | ETA:  0:00:00  44.41 MB/spystan-2.8.0.0  33% |##########                     | ETA:  0:00:00  45.06 MB/spystan-2.8.0.0  34% |##########                     | ETA:  0:00:00  45.72 MB/spystan-2.8.0.0  35% |###########                    | ETA:  0:00:00  46.38 MB/spystan-2.8.0.0  36% |###########                    | ETA:  0:00:00  46.99 MB/spystan-2.8.0.0  37% |###########                    | ETA:  0:00:00  47.35 MB/spystan-2.8.0.0  38% |############                   | ETA:  0:00:00  47.96 MB/spystan-2.8.0.0  39% |############                   | ETA:  0:00:00  48.55 MB/spystan-2.8.0.0  40% |############                   | ETA:  0:00:00  49.12 MB/spystan-2.8.0.0  41% |############                   | ETA:  0:00:00  49.67 MB/spystan-2.8.0.0  42% |#############                  | ETA:  0:00:00  50.06 MB/spystan-2.8.0.0  43% |#############                  | ETA:  0:00:00  50.62 MB/spystan-2.8.0.0  45% |#############                  | ETA:  0:00:00  51.16 MB/spystan-2.8.0.0  46% |##############                 | ETA:  0:00:00  51.69 MB/spystan-2.8.0.0  47% |##############                 | ETA:  0:00:00  52.24 MB/spystan-2.8.0.0  48% |##############                 | ETA:  0:00:00  52.65 MB/spystan-2.8.0.0  49% |###############                | ETA:  0:00:00  53.17 MB/spystan-2.8.0.0  50% |###############                | ETA:  0:00:00  53.71 MB/spystan-2.8.0.0  51% |###############                | ETA:  0:00:00  54.21 MB/spystan-2.8.0.0  52% |################               | ETA:  0:00:00  54.72 MB/spystan-2.8.0.0  53% |################               | ETA:  0:00:00  55.06 MB/spystan-2.8.0.0  54% |################               | ETA:  0:00:00  55.54 MB/spystan-2.8.0.0  55% |#################              | ETA:  0:00:00  55.99 MB/spystan-2.8.0.0  56% |#################              | ETA:  0:00:00  56.48 MB/spystan-2.8.0.0  57% |#################              | ETA:  0:00:00  56.95 MB/spystan-2.8.0.0  58% |##################             | ETA:  0:00:00  57.32 MB/spystan-2.8.0.0  59% |##################             | ETA:  0:00:00  57.77 MB/spystan-2.8.0.0  60% |##################             | ETA:  0:00:00  58.20 MB/spystan-2.8.0.0  61% |###################            | ETA:  0:00:00  58.59 MB/spystan-2.8.0.0  62% |###################            | ETA:  0:00:00  59.00 MB/spystan-2.8.0.0  63% |###################            | ETA:  0:00:00  59.29 MB/spystan-2.8.0.0  64% |####################           | ETA:  0:00:00  59.65 MB/spystan-2.8.0.0  65% |####################           | ETA:  0:00:00  60.07 MB/spystan-2.8.0.0  66% |####################           | ETA:  0:00:00  60.46 MB/spystan-2.8.0.0  68% |#####################          | ETA:  0:00:00  60.85 MB/spystan-2.8.0.0  69% |#####################          | ETA:  0:00:00  61.14 MB/spystan-2.8.0.0  70% |#####################          | ETA:  0:00:00  61.54 MB/spystan-2.8.0.0  71% |######################         | ETA:  0:00:00  61.93 MB/spystan-2.8.0.0  72% |######################         | ETA:  0:00:00  62.32 MB/spystan-2.8.0.0  73% |######################         | ETA:  0:00:00  62.64 MB/spystan-2.8.0.0  74% |#######################        | ETA:  0:00:00  62.93 MB/spystan-2.8.0.0  75% |#######################        | ETA:  0:00:00  63.31 MB/spystan-2.8.0.0  76% |#######################        | ETA:  0:00:00  63.64 MB/spystan-2.8.0.0  77% |########################       | ETA:  0:00:00  63.97 MB/spystan-2.8.0.0  78% |########################       | ETA:  0:00:00  64.31 MB/spystan-2.8.0.0  79% |########################       | ETA:  0:00:00  64.54 MB/spystan-2.8.0.0  80% |########################       | ETA:  0:00:00  64.92 MB/spystan-2.8.0.0  81% |#########################      | ETA:  0:00:00  65.27 MB/spystan-2.8.0.0  82% |#########################      | ETA:  0:00:00  65.61 MB/spystan-2.8.0.0  83% |#########################      | ETA:  0:00:00  65.97 MB/spystan-2.8.0.0  84% |##########################     | ETA:  0:00:00  66.06 MB/spystan-2.8.0.0  85% |##########################     | ETA:  0:00:00  66.33 MB/spystan-2.8.0.0  86% |##########################     | ETA:  0:00:00  66.69 MB/spystan-2.8.0.0  87% |###########################    | ETA:  0:00:00  66.96 MB/spystan-2.8.0.0  88% |###########################    | ETA:  0:00:00  67.27 MB/spystan-2.8.0.0  90% |###########################    | ETA:  0:00:00  67.40 MB/spystan-2.8.0.0  91% |############################   | ETA:  0:00:00  67.60 MB/spystan-2.8.0.0  92% |############################   | ETA:  0:00:00  67.84 MB/spystan-2.8.0.0  93% |############################   | ETA:  0:00:00  68.07 MB/spystan-2.8.0.0  94% |#############################  | ETA:  0:00:00  68.30 MB/spystan-2.8.0.0  95% |#############################  | ETA:  0:00:00  68.41 MB/spystan-2.8.0.0  96% |#############################  | ETA:  0:00:00  68.69 MB/spystan-2.8.0.0  97% |############################## | ETA:  0:00:00  68.98 MB/spystan-2.8.0.0  98% |############################## | ETA:  0:00:00  69.24 MB/spystan-2.8.0.0  99% |############################## | ETA:  0:00:00  69.48 MB/spystan-2.8.0.0 100% |###############################| Time: 0:00:00  69.33 MB/s
+Extracting packages ...
+[                    ]|                                                  |   0%[pystan              ]|                                                  |   0%[      COMPLETE      ]|##################################################| 100%
+Linking packages ...
+[      COMPLETE      ]|                                                  |   0%[pystan              ]|                                                  |   0%[pystan              ]|                                                  |   0%[      COMPLETE      ]|##################################################| 100%
+Using Anaconda Cloud api site https://api.anaconda.org
+Fetching package metadata .........
+Solving package specifications: ..........
+
+Package plan for installation in environment /global/common/cori/contrib/wfirst/wfirst_sim_v4/wfirst-env:
+
+The following packages will be downloaded:
+
+    package                    |            build
+    ---------------------------|-----------------
+    corner-2.0.1               |           py27_0          23 KB  OpenAstronomy
+
+The following NEW packages will be INSTALLED:
+
+    corner: 2.0.1-py27_0 OpenAstronomy
+
+Proceed ([y]/n)? 
+Fetching packages ...
+corner-2.0.1-p   0% |                              | ETA:  --:--:--   0.00  B/scorner-2.0.1-p  68% |#####################          | ETA:  0:00:00 254.48 kB/scorner-2.0.1-p 100% |###############################| ETA:  0:00:00 367.24 kB/scorner-2.0.1-p 100% |###############################| Time: 0:00:00 363.33 kB/s
+Extracting packages ...
+[                    ]|                                                  |   0%[corner              ]|                                                  |   0%[      COMPLETE      ]|##################################################| 100%
+Linking packages ...
+[      COMPLETE      ]|                                                  |   0%[corner              ]|                                                  |   0%[corner              ]|                                                  |   0%[      COMPLETE      ]|##################################################| 100%
+Using Anaconda Cloud api site https://api.anaconda.org
+Fetching package metadata .........
+Solving package specifications: ..........
+
+Package plan for installation in environment /global/common/cori/contrib/wfirst/wfirst_sim_v4/wfirst-env:
+
+The following packages will be downloaded:
+
+    package                    |            build
+    ---------------------------|-----------------
+    pyfits-3.2                 |      np111py27_1         2.0 MB  CEFCA
+
+The following NEW packages will be INSTALLED:
+
+    pyfits: 3.2-np111py27_1 CEFCA
+
+Proceed ([y]/n)? 
+Fetching packages ...
+pyfits-3.2-np1   0% |                              | ETA:  --:--:--   0.00  B/spyfits-3.2-np1   1% |                               | ETA:  0:00:08 252.33 kB/spyfits-3.2-np1   3% |                               | ETA:  0:00:06 336.29 kB/spyfits-3.2-np1   4% |#                              | ETA:  0:00:05 378.02 kB/spyfits-3.2-np1   6% |#                              | ETA:  0:00:04 403.13 kB/spyfits-3.2-np1   7% |##                             | ETA:  0:00:03 502.13 kB/spyfits-3.2-np1   9% |##                             | ETA:  0:00:03 503.23 kB/spyfits-3.2-np1  10% |###                            | ETA:  0:00:03 533.29 kB/spyfits-3.2-np1  12% |###                            | ETA:  0:00:03 575.19 kB/spyfits-3.2-np1  13% |####                           | ETA:  0:00:02 644.46 kB/spyfits-3.2-np1  15% |####                           | ETA:  0:00:02 661.29 kB/spyfits-3.2-np1  16% |#####                          | ETA:  0:00:02 691.34 kB/spyfits-3.2-np1  18% |#####                          | ETA:  0:00:02 751.96 kB/spyfits-3.2-np1  20% |######                         | ETA:  0:00:02 759.20 kB/spyfits-3.2-np1  21% |######                         | ETA:  0:00:02 782.06 kB/spyfits-3.2-np1  23% |#######                        | ETA:  0:00:01 835.98 kB/spyfits-3.2-np1  24% |#######                        | ETA:  0:00:01 838.19 kB/spyfits-3.2-np1  26% |########                       | ETA:  0:00:01 855.99 kB/spyfits-3.2-np1  27% |########                       | ETA:  0:00:01 905.06 kB/spyfits-3.2-np1  29% |#########                      | ETA:  0:00:01 952.18 kB/spyfits-3.2-np1  30% |#########                      | ETA:  0:00:01   1.00 MB/spyfits-3.2-np1  32% |##########                     | ETA:  0:00:01 995.25 kB/spyfits-3.2-np1  33% |##########                     | ETA:  0:00:01   1.01 MB/spyfits-3.2-np1  35% |###########                    | ETA:  0:00:01   1.05 MB/spyfits-3.2-np1  37% |###########                    | ETA:  0:00:01   1.09 MB/spyfits-3.2-np1  38% |###########                    | ETA:  0:00:01   1.14 MB/spyfits-3.2-np1  40% |############                   | ETA:  0:00:01   1.13 MB/spyfits-3.2-np1  41% |############                   | ETA:  0:00:01   1.13 MB/spyfits-3.2-np1  43% |#############                  | ETA:  0:00:01   1.17 MB/spyfits-3.2-np1  44% |#############                  | ETA:  0:00:00   1.21 MB/spyfits-3.2-np1  46% |##############                 | ETA:  0:00:00   1.25 MB/spyfits-3.2-np1  47% |##############                 | ETA:  0:00:00   1.29 MB/spyfits-3.2-np1  49% |###############                | ETA:  0:00:00   1.28 MB/spyfits-3.2-np1  50% |###############                | ETA:  0:00:00   1.28 MB/spyfits-3.2-np1  52% |################               | ETA:  0:00:00   1.32 MB/spyfits-3.2-np1  54% |################               | ETA:  0:00:00   1.35 MB/spyfits-3.2-np1  55% |#################              | ETA:  0:00:00   1.39 MB/spyfits-3.2-np1  57% |#################              | ETA:  0:00:00   1.43 MB/spyfits-3.2-np1  58% |##################             | ETA:  0:00:00   1.46 MB/spyfits-3.2-np1  60% |##################             | ETA:  0:00:00   1.44 MB/spyfits-3.2-np1  61% |###################            | ETA:  0:00:00   1.48 MB/spyfits-3.2-np1  63% |###################            | ETA:  0:00:00   1.47 MB/spyfits-3.2-np1  64% |####################           | ETA:  0:00:00   1.51 MB/spyfits-3.2-np1  66% |####################           | ETA:  0:00:00   1.54 MB/spyfits-3.2-np1  67% |#####################          | ETA:  0:00:00   1.57 MB/spyfits-3.2-np1  69% |#####################          | ETA:  0:00:00   1.61 MB/spyfits-3.2-np1  70% |######################         | ETA:  0:00:00   1.64 MB/spyfits-3.2-np1  72% |######################         | ETA:  0:00:00   1.62 MB/spyfits-3.2-np1  74% |######################         | ETA:  0:00:00   1.65 MB/spyfits-3.2-np1  75% |#######################        | ETA:  0:00:00   1.64 MB/spyfits-3.2-np1  77% |#######################        | ETA:  0:00:00   1.67 MB/spyfits-3.2-np1  78% |########################       | ETA:  0:00:00   1.71 MB/spyfits-3.2-np1  80% |########################       | ETA:  0:00:00   1.74 MB/spyfits-3.2-np1  81% |#########################      | ETA:  0:00:00   1.77 MB/spyfits-3.2-np1  83% |#########################      | ETA:  0:00:00   1.80 MB/spyfits-3.2-np1  84% |##########################     | ETA:  0:00:00   1.83 MB/spyfits-3.2-np1  86% |##########################     | ETA:  0:00:00   1.81 MB/spyfits-3.2-np1  87% |###########################    | ETA:  0:00:00   1.84 MB/spyfits-3.2-np1  89% |###########################    | ETA:  0:00:00   1.87 MB/spyfits-3.2-np1  91% |############################   | ETA:  0:00:00   1.86 MB/spyfits-3.2-np1  92% |############################   | ETA:  0:00:00   1.88 MB/spyfits-3.2-np1  94% |#############################  | ETA:  0:00:00   1.91 MB/spyfits-3.2-np1  95% |#############################  | ETA:  0:00:00   1.94 MB/spyfits-3.2-np1  97% |############################## | ETA:  0:00:00   1.97 MB/spyfits-3.2-np1  98% |############################## | ETA:  0:00:00   2.00 MB/spyfits-3.2-np1 100% |###############################| ETA:  0:00:00   2.02 MB/spyfits-3.2-np1 100% |###############################| Time: 0:00:01   2.02 MB/s
+Extracting packages ...
+[                    ]|                                                  |   0%[pyfits              ]|                                                  |   0%[      COMPLETE      ]|##################################################| 100%
+Linking packages ...
+[      COMPLETE      ]|                                                  |   0%[pyfits              ]|                                                  |   0%[pyfits              ]|                                                  |   0%[      COMPLETE      ]|##################################################| 100%
+Using Anaconda Cloud api site https://api.anaconda.org
+Fetching package metadata .........
+Solving package specifications: ..........
+
+Package plan for installation in environment /global/common/cori/contrib/wfirst/wfirst_sim_v4/wfirst-env:
+
+The following packages will be downloaded:
+
+    package                    |            build
+    ---------------------------|-----------------
+    extinction-0.2.2           |      np111py27_0         335 KB  astropy
+
+The following NEW packages will be INSTALLED:
+
+    extinction: 0.2.2-np111py27_0 astropy
+
+Proceed ([y]/n)? 
+Fetching packages ...
+extinction-0.2   0% |                              | ETA:  --:--:--   0.00  B/sextinction-0.2   4% |#                              | ETA:  0:00:01 251.92 kB/sextinction-0.2   9% |##                             | ETA:  0:00:01 251.35 kB/sextinction-0.2  14% |####                           | ETA:  0:00:01 251.05 kB/sextinction-0.2  19% |#####                          | ETA:  0:00:00 333.78 kB/sextinction-0.2  23% |#######                        | ETA:  0:00:00 347.51 kB/sextinction-0.2  28% |########                       | ETA:  0:00:00 375.53 kB/sextinction-0.2  33% |##########                     | ETA:  0:00:00 437.33 kB/sextinction-0.2  38% |###########                    | ETA:  0:00:00 401.55 kB/sextinction-0.2  43% |#############                  | ETA:  0:00:00 450.87 kB/sextinction-0.2  47% |##############                 | ETA:  0:00:00 500.13 kB/sextinction-0.2  52% |################               | ETA:  0:00:00 549.48 kB/sextinction-0.2  57% |#################              | ETA:  0:00:00 501.84 kB/sextinction-0.2  62% |###################            | ETA:  0:00:00 541.60 kB/sextinction-0.2  66% |####################           | ETA:  0:00:00 582.66 kB/sextinction-0.2  71% |######################         | ETA:  0:00:00 571.46 kB/sextinction-0.2  76% |#######################        | ETA:  0:00:00 573.41 kB/sextinction-0.2  81% |#########################      | ETA:  0:00:00 608.15 kB/sextinction-0.2  86% |##########################     | ETA:  0:00:00 642.44 kB/sextinction-0.2  90% |############################   | ETA:  0:00:00 677.53 kB/sextinction-0.2  95% |#############################  | ETA:  0:00:00 659.37 kB/sextinction-0.2 100% |###############################| ETA:  0:00:00 688.64 kB/sextinction-0.2 100% |###############################| Time: 0:00:00 687.68 kB/s
+Extracting packages ...
+[                    ]|                                                  |   0%[extinction          ]|                                                  |   0%[      COMPLETE      ]|##################################################| 100%
+Linking packages ...
+[      COMPLETE      ]|                                                  |   0%[extinction          ]|                                                  |   0%[extinction          ]|                                                  |   0%[      COMPLETE      ]|##################################################| 100%
+compiling concorde travel-salesman-problem solver...
+creating cache ./config.cache
+checking host system type... Invalid configuration `x86_64-unknown-linux-gnu': machine `x86_64-unknown' not recognized
+
+checking for prespecified compiler options... no
+checking for gcc... gcc
+checking whether the C compiler (gcc  ) works... yes
+checking whether the C compiler (gcc  ) is a cross-compiler... no
+checking whether we are using GNU C... yes
+checking whether gcc accepts -g... yes
+checking whether make sets ${MAKE}... yes
+checking for ranlib... ranlib
+checking for sh... /usr/bin/sh
+checking for file suffixes... o, a, 
+checking for sqrt in -lm... yes
+checking for -lnsl... no
+checking for -lsocket... no
+checking for bfd_open_file in -lbfd... no
+checking for xstrerror in -liberty... yes
+checking how to run the C preprocessor... gcc -E
+checking for ANSI C header files... yes
+checking whether time.h and sys/time.h may both be included... yes
+checking for stdlib.h... yes
+checking for math.h... yes
+checking for string.h... yes
+checking for strings.h... yes
+checking for errno.h... yes
+checking for assert.h... yes
+checking for sys/time.h... yes
+checking for time.h... yes
+checking for stddef.h... yes
+checking for unistd.h... yes
+checking for malloc.h... yes
+checking for sys/types.h... yes
+checking for sys/stat.h... yes
+checking for fcntl.h... yes
+checking for signal.h... yes
+checking for sys/socket.h... yes
+checking for netinet/in.h... yes
+checking for netdb.h... yes
+checking for sys/resource.h... yes
+checking for sys/param.h... yes
+checking for sys/times.h... yes
+checking for working const... yes
+checking for void... yes
+checking for size_t... yes
+checking for pid_t... yes
+checking return type of signal handlers... void
+checking for u_char... yes
+checking for missing printf prototype... no
+checking for missing gethostname prototype... no
+checking for missing getrusage prototype... no
+checking usable sigaction()... yes
+checking for __attribute__... yes
+checking for gethostname... yes
+checking for socket... yes
+checking for strdup... yes
+checking for getrusage... yes
+checking for times... yes
+checking for clock... yes
+checking for sleep... yes
+checking for sigaction... yes
+checking for signal... yes
+updating cache ./config.cache
+creating ./config.status
+creating Makefile
+creating BIGGUY/Makefile
+creating COMBS/Makefile
+creating CUT/Makefile
+creating EDGEGEN/Makefile
+creating FMATCH/Makefile
+creating HELDKARP/Makefile
+creating INCLUDE/Makefile.common
+creating KDTREE/Makefile
+creating LINKERN/Makefile
+creating LOCALCUT/Makefile
+creating LP/Makefile
+creating PQ/Makefile
+creating TINY/Makefile
+creating TOOLS/Makefile
+creating TSP/Makefile
+creating UTIL/Makefile
+creating VERIFY/Makefile
+creating INCLUDE/config.h
+INCLUDE/config.h is unchanged
+rm -f *.o concorde.h concorde.a
+for i in BIGGUY   LOCALCUT COMBS    CUT      EDGEGEN  FMATCH HELDKARP KDTREE   LINKERN  LP       PQ       TINY     TOOLS TSP      UTIL     VERIFY; do ( cd $i; make clean ); done
+make[1]: Entering directory '/global/common/cori/contrib/wfirst/wfirst_sim_v4/concorde/BIGGUY'
+rm -f *.o bigguy.a bg_test bigguy.ts2
+make[1]: Leaving directory '/global/common/cori/contrib/wfirst/wfirst_sim_v4/concorde/BIGGUY'
+make[1]: Entering directory '/global/common/cori/contrib/wfirst/wfirst_sim_v4/concorde/LOCALCUT'
+rm -f *.o localcut.a first checker peeler peeler2 localcut
+make[1]: Leaving directory '/global/common/cori/contrib/wfirst/wfirst_sim_v4/concorde/LOCALCUT'
+make[1]: Entering directory '/global/common/cori/contrib/wfirst/wfirst_sim_v4/concorde/COMBS'
+rm -f *.o combs.a combtest
+make[1]: Leaving directory '/global/common/cori/contrib/wfirst/wfirst_sim_v4/concorde/COMBS'
+make[1]: Entering directory '/global/common/cori/contrib/wfirst/wfirst_sim_v4/concorde/CUT'
+rm -f *.o cut.a mincut lin_all
+make[1]: Leaving directory '/global/common/cori/contrib/wfirst/wfirst_sim_v4/concorde/CUT'
+make[1]: Entering directory '/global/common/cori/contrib/wfirst/wfirst_sim_v4/concorde/EDGEGEN'
+rm -f *.o edgegen.a edgegen
+make[1]: Leaving directory '/global/common/cori/contrib/wfirst/wfirst_sim_v4/concorde/EDGEGEN'
+make[1]: Entering directory '/global/common/cori/contrib/wfirst/wfirst_sim_v4/concorde/FMATCH'
+rm -f *.o fmatch.a fmatch
+make[1]: Leaving directory '/global/common/cori/contrib/wfirst/wfirst_sim_v4/concorde/FMATCH'
+make[1]: Entering directory '/global/common/cori/contrib/wfirst/wfirst_sim_v4/concorde/HELDKARP'
+rm -f *.o heldkarp.a heldkarp
+make[1]: Leaving directory '/global/common/cori/contrib/wfirst/wfirst_sim_v4/concorde/HELDKARP'
+make[1]: Entering directory '/global/common/cori/contrib/wfirst/wfirst_sim_v4/concorde/KDTREE'
+rm -f *.o kdtree.a kdtree
+make[1]: Leaving directory '/global/common/cori/contrib/wfirst/wfirst_sim_v4/concorde/KDTREE'
+make[1]: Entering directory '/global/common/cori/contrib/wfirst/wfirst_sim_v4/concorde/LINKERN'
+rm -f *.o linkern.a linkern
+make[1]: Leaving directory '/global/common/cori/contrib/wfirst/wfirst_sim_v4/concorde/LINKERN'
+make[1]: Entering directory '/global/common/cori/contrib/wfirst/wfirst_sim_v4/concorde/LP'
+rm -f *.o lp.a
+make[1]: Leaving directory '/global/common/cori/contrib/wfirst/wfirst_sim_v4/concorde/LP'
+make[1]: Entering directory '/global/common/cori/contrib/wfirst/wfirst_sim_v4/concorde/PQ'
+rm -f *.o pq.a pqtest
+make[1]: Leaving directory '/global/common/cori/contrib/wfirst/wfirst_sim_v4/concorde/PQ'
+make[1]: Entering directory '/global/common/cori/contrib/wfirst/wfirst_sim_v4/concorde/TINY'
+rm -f *.o tiny.a tinytsp
+make[1]: Leaving directory '/global/common/cori/contrib/wfirst/wfirst_sim_v4/concorde/TINY'
+make[1]: Entering directory '/global/common/cori/contrib/wfirst/wfirst_sim_v4/concorde/TOOLS'
+rm -f *.o fconvert tourchk \
+                    showres \
+                    prob2tsp tourlen \
+                    edgunion killgrun \
+                    edg2len
+make[1]: Leaving directory '/global/common/cori/contrib/wfirst/wfirst_sim_v4/concorde/TOOLS'
+make[1]: Entering directory '/global/common/cori/contrib/wfirst/wfirst_sim_v4/concorde/TSP'
+rm -f *.o tsp.a concorde cutserv probserv bosstell poolcat test_tsp
+make[1]: Leaving directory '/global/common/cori/contrib/wfirst/wfirst_sim_v4/concorde/TSP'
+make[1]: Entering directory '/global/common/cori/contrib/wfirst/wfirst_sim_v4/concorde/UTIL'
+rm -f *.o util.a
+make[1]: Leaving directory '/global/common/cori/contrib/wfirst/wfirst_sim_v4/concorde/UTIL'
+make[1]: Entering directory '/global/common/cori/contrib/wfirst/wfirst_sim_v4/concorde/VERIFY'
+rm -f *.o verify.a verify isomorph
+make[1]: Leaving directory '/global/common/cori/contrib/wfirst/wfirst_sim_v4/concorde/VERIFY'
+cat ./INCLUDE/config.h  ./INCLUDE/machdefs.h ./INCLUDE/util.h ./INCLUDE/bigguy.h   ./INCLUDE/combs.h    ./INCLUDE/cut.h ./INCLUDE/delaunay.h ./INCLUDE/edgegen.h  ./INCLUDE/fmatch.h ./INCLUDE/heldkarp.h ./INCLUDE/kdtree.h   ./INCLUDE/linkern.h ./INCLUDE/lp.h       ./INCLUDE/tsp.h      ./INCLUDE/consec1.h ./INCLUDE/localcut.h ./INCLUDE/macrorus.h ./INCLUDE/mlinkern.h ./INCLUDE/necklace.h ./INCLUDE/pqsets.h   ./INCLUDE/pq.h ./INCLUDE/cuttree.h ./INCLUDE/tinytsp.h  ./INCLUDE/tsp.h      ./INCLUDE/verify.h | grep -v '#include "' > concorde.h
+for i in BIGGUY   LOCALCUT COMBS    CUT      EDGEGEN  FMATCH HELDKARP KDTREE   LINKERN  LP       PQ       TINY     TOOLS TSP      UTIL     VERIFY; do ( cd $i; make concorde.a ); done
+make[1]: Entering directory '/global/common/cori/contrib/wfirst/wfirst_sim_v4/concorde/BIGGUY'
+gcc -g -O2  -I../INCLUDE -I../INCLUDE   -c -o bigguy.o bigguy.c
+ar rv ../concorde.a bigguy.o
+ar: creating ../concorde.a
+a - bigguy.o
+ranlib ../concorde.a
+make[1]: Leaving directory '/global/common/cori/contrib/wfirst/wfirst_sim_v4/concorde/BIGGUY'
+make[1]: Entering directory '/global/common/cori/contrib/wfirst/wfirst_sim_v4/concorde/LOCALCUT'
+gcc -g -O2  -I../INCLUDE -I../INCLUDE -I.   -c -o localcut.o localcut.c
+gcc -g -O2  -I../INCLUDE -I../INCLUDE -I.   -c -o chunks.o chunks.c
+gcc -g -O2  -I../INCLUDE -I../INCLUDE -I.   -c -o first.o first.c
+gcc -g -O2  -I../INCLUDE -I../INCLUDE -I.   -c -o lift.o lift.c
+gcc -g -O2  -I../INCLUDE -I../INCLUDE -I.   -c -o tsporacl.o tsporacl.c
+gcc -g -O2  -I../INCLUDE -I../INCLUDE -I.   -c -o intmat.o intmat.c
+gcc -g -O2  -I../INCLUDE -I../INCLUDE -I.   -c -o separate.o separate.c
+ar rv ../concorde.a localcut.o chunks.o first.o lift.o tsporacl.o intmat.o separate.o
+a - localcut.o
+a - chunks.o
+a - first.o
+a - lift.o
+a - tsporacl.o
+a - intmat.o
+a - separate.o
+ranlib ../concorde.a
+make[1]: Leaving directory '/global/common/cori/contrib/wfirst/wfirst_sim_v4/concorde/LOCALCUT'
+make[1]: Entering directory '/global/common/cori/contrib/wfirst/wfirst_sim_v4/concorde/COMBS'
+gcc -g -O2  -I../INCLUDE -I../INCLUDE   -c -o block.o block.c
+gcc -g -O2  -I../INCLUDE -I../INCLUDE   -c -o dngreedy.o dngreedy.c
+ar rv ../concorde.a block.o dngreedy.o
+a - block.o
+a - dngreedy.o
+ranlib ../concorde.a
+make[1]: Leaving directory '/global/common/cori/contrib/wfirst/wfirst_sim_v4/concorde/COMBS'
+make[1]: Entering directory '/global/common/cori/contrib/wfirst/wfirst_sim_v4/concorde/CUT'
+gcc -g -O2  -I../INCLUDE -I../INCLUDE   -c -o segments.o segments.c
+gcc -g -O2  -I../INCLUDE -I../INCLUDE   -c -o connect.o connect.c
+gcc -g -O2  -I../INCLUDE -I../INCLUDE   -c -o shrink.o shrink.c
+gcc -g -O2  -I../INCLUDE -I../INCLUDE   -c -o mincut.o mincut.c
+gcc -g -O2  -I../INCLUDE -I../INCLUDE   -c -o cut_st.o cut_st.c
+cut_st.c:88:0: warning: "INFINITY" redefined [enabled by default]
+ #define INFINITY (1<<30)
+ ^
+In file included from /usr/include/math.h:38:0,
+                 from ../INCLUDE/machdefs.h:36,
+                 from cut_st.c:76:
+/usr/include/bits/inf.h:26:0: note: this is the location of the previous definition
+ # define INFINITY (__builtin_inff())
+ ^
+gcc -g -O2  -I../INCLUDE -I../INCLUDE   -c -o gomoryhu.o gomoryhu.c
+ar rv ../concorde.a segments.o connect.o shrink.o mincut.o cut_st.o gomoryhu.o
+a - segments.o
+a - connect.o
+a - shrink.o
+a - mincut.o
+a - cut_st.o
+a - gomoryhu.o
+ranlib ../concorde.a
+make[1]: Leaving directory '/global/common/cori/contrib/wfirst/wfirst_sim_v4/concorde/CUT'
+make[1]: Entering directory '/global/common/cori/contrib/wfirst/wfirst_sim_v4/concorde/EDGEGEN'
+gcc -g -O2  -I../INCLUDE -I../INCLUDE   -c -o edgegen.o edgegen.c
+gcc -g -O2  -I../INCLUDE -I../INCLUDE   -c -o xnear.o xnear.c
+gcc -g -O2  -I../INCLUDE -I../INCLUDE   -c -o delaunay.o delaunay.c
+gcc -g -O2  -I../INCLUDE -I../INCLUDE   -c -o mlinkern.o mlinkern.c
+ar rv ../concorde.a edgegen.o xnear.o delaunay.o mlinkern.o
+a - edgegen.o
+a - xnear.o
+a - delaunay.o
+a - mlinkern.o
+ranlib ../concorde.a
+make[1]: Leaving directory '/global/common/cori/contrib/wfirst/wfirst_sim_v4/concorde/EDGEGEN'
+make[1]: Entering directory '/global/common/cori/contrib/wfirst/wfirst_sim_v4/concorde/FMATCH'
+gcc -g -O2  -I../INCLUDE -I../INCLUDE   -c -o fmatch.o fmatch.c
+ar rv ../concorde.a fmatch.o
+a - fmatch.o
+ranlib ../concorde.a
+make[1]: Leaving directory '/global/common/cori/contrib/wfirst/wfirst_sim_v4/concorde/FMATCH'
+make[1]: Entering directory '/global/common/cori/contrib/wfirst/wfirst_sim_v4/concorde/HELDKARP'
+gcc -g -O2  -I../INCLUDE -I../INCLUDE   -c -o heldkarp.o heldkarp.c
+ar rv ../concorde.a heldkarp.o
+a - heldkarp.o
+ranlib ../concorde.a
+make[1]: Leaving directory '/global/common/cori/contrib/wfirst/wfirst_sim_v4/concorde/HELDKARP'
+make[1]: Entering directory '/global/common/cori/contrib/wfirst/wfirst_sim_v4/concorde/KDTREE'
+gcc -g -O2  -I../INCLUDE -I../INCLUDE   -c -o kdbuild.o kdbuild.c
+gcc -g -O2  -I../INCLUDE -I../INCLUDE   -c -o kdnear.o kdnear.c
+gcc -g -O2  -I../INCLUDE -I../INCLUDE   -c -o kdspan.o kdspan.c
+gcc -g -O2  -I../INCLUDE -I../INCLUDE   -c -o kdtwoopt.o kdtwoopt.c
+ar rv ../concorde.a kdbuild.o kdnear.o kdspan.o kdtwoopt.o
+a - kdbuild.o
+a - kdnear.o
+a - kdspan.o
+a - kdtwoopt.o
+ranlib ../concorde.a
+make[1]: Leaving directory '/global/common/cori/contrib/wfirst/wfirst_sim_v4/concorde/KDTREE'
+make[1]: Entering directory '/global/common/cori/contrib/wfirst/wfirst_sim_v4/concorde/LINKERN'
+gcc -g -O2  -I../INCLUDE -I../INCLUDE   -c -o linkern.o linkern.c
+gcc -g -O2  -I../INCLUDE -I../INCLUDE   -c -o linkern_fixed.o linkern_fixed.c
+gcc -g -O2  -I../INCLUDE -I../INCLUDE   -c -o linkern_path.o linkern_path.c
+gcc -g -O2  -I../INCLUDE -I../INCLUDE   -c -o flip_two.o flip_two.c
+ar rv ../concorde.a linkern.o linkern_fixed.o linkern_path.o flip_two.o
+a - linkern.o
+a - linkern_fixed.o
+a - linkern_path.o
+a - flip_two.o
+ranlib ../concorde.a
+make[1]: Leaving directory '/global/common/cori/contrib/wfirst/wfirst_sim_v4/concorde/LINKERN'
+make[1]: Entering directory '/global/common/cori/contrib/wfirst/wfirst_sim_v4/concorde/LP'
+gcc -g -O2  -I../INCLUDE -I../INCLUDE    -c -o lpnone.o lpnone.c
+ar rv ../concorde.a lpnone.o
+a - lpnone.o
+ranlib ../concorde.a
+make[1]: Leaving directory '/global/common/cori/contrib/wfirst/wfirst_sim_v4/concorde/LP'
+make[1]: Entering directory '/global/common/cori/contrib/wfirst/wfirst_sim_v4/concorde/PQ'
+gcc -g -O2  -I../INCLUDE -I../INCLUDE   -c -o pq.o pq.c
+gcc -g -O2  -I../INCLUDE -I../INCLUDE   -c -o cuttree.o cuttree.c
+gcc -g -O2  -I../INCLUDE -I../INCLUDE   -c -o consec1.o consec1.c
+gcc -g -O2  -I../INCLUDE -I../INCLUDE   -c -o necklace.o necklace.c
+ar rv ../concorde.a pq.o cuttree.o consec1.o necklace.o
+a - pq.o
+a - cuttree.o
+a - consec1.o
+a - necklace.o
+ranlib ../concorde.a
+make[1]: Leaving directory '/global/common/cori/contrib/wfirst/wfirst_sim_v4/concorde/PQ'
+make[1]: Entering directory '/global/common/cori/contrib/wfirst/wfirst_sim_v4/concorde/TINY'
+gcc -g -O2  -I../INCLUDE -I../INCLUDE   -c -o tinytsp.o tinytsp.c
+gcc -g -O2  -I../INCLUDE -I../INCLUDE   -c -o bnbmsp.o bnbmsp.c
+ar rv ../concorde.a tinytsp.o bnbmsp.o
+a - tinytsp.o
+a - bnbmsp.o
+ranlib ../concorde.a
+make[1]: Leaving directory '/global/common/cori/contrib/wfirst/wfirst_sim_v4/concorde/TINY'
+make[1]: Entering directory '/global/common/cori/contrib/wfirst/wfirst_sim_v4/concorde/TOOLS'
+make[1]: Nothing to be done for 'concorde.a'.
+make[1]: Leaving directory '/global/common/cori/contrib/wfirst/wfirst_sim_v4/concorde/TOOLS'
+make[1]: Entering directory '/global/common/cori/contrib/wfirst/wfirst_sim_v4/concorde/TSP'
+gcc -g -O2  -I../INCLUDE -I../INCLUDE   -c -o prob_io.o prob_io.c
+gcc -g -O2  -I../INCLUDE -I../INCLUDE   -c -o tsp_lp.o tsp_lp.c
+gcc -g -O2  -I../INCLUDE -I../INCLUDE   -c -o qsparse.o qsparse.c
+gcc -g -O2  -I../INCLUDE -I../INCLUDE   -c -o cliqhash.o cliqhash.c
+gcc -g -O2  -I../INCLUDE -I../INCLUDE   -c -o generate.o generate.c
+gcc -g -O2  -I../INCLUDE -I../INCLUDE   -c -o ex_price.o ex_price.c
+gcc -g -O2  -I../INCLUDE -I../INCLUDE   -c -o cutcall.o cutcall.c
+gcc -g -O2  -I../INCLUDE -I../INCLUDE   -c -o tighten.o tighten.c
+gcc -g -O2  -I../INCLUDE -I../INCLUDE   -c -o cutpool.o cutpool.c
+gcc -g -O2  -I../INCLUDE -I../INCLUDE   -c -o branch.o branch.c
+gcc -g -O2  -I../INCLUDE -I../INCLUDE   -c -o control.o control.c
+gcc -g -O2  -I../INCLUDE -I../INCLUDE   -c -o cliqwork.o cliqwork.c
+gcc -g -O2  -I../INCLUDE -I../INCLUDE   -c -o ddecker.o ddecker.c
+gcc -g -O2  -I../INCLUDE -I../INCLUDE   -c -o teething.o teething.c
+gcc -g -O2  -I../INCLUDE -I../INCLUDE   -c -o bcontrol.o bcontrol.c
+gcc -g -O2  -I../INCLUDE -I../INCLUDE   -c -o xtour.o xtour.c
+gcc -g -O2  -I../INCLUDE -I../INCLUDE   -c -o skeleton.o skeleton.c
+gcc -g -O2  -I../INCLUDE -I../INCLUDE   -c -o blkcomb.o blkcomb.c
+gcc -g -O2  -I../INCLUDE -I../INCLUDE   -c -o growcomb.o growcomb.c
+gcc -g -O2  -I../INCLUDE -I../INCLUDE   -c -o combcliq.o combcliq.c
+gcc -g -O2  -I../INCLUDE -I../INCLUDE   -c -o prclique.o prclique.c
+gcc -g -O2  -I../INCLUDE -I../INCLUDE   -c -o blossom.o blossom.c
+gcc -g -O2  -I../INCLUDE -I../INCLUDE   -c -o tsp_call.o tsp_call.c
+ar rv ../concorde.a prob_io.o tsp_lp.o qsparse.o cliqhash.o generate.o ex_price.o cutcall.o tighten.o cutpool.o branch.o control.o cliqwork.o ddecker.o teething.o bcontrol.o xtour.o skeleton.o blkcomb.o growcomb.o combcliq.o prclique.o blossom.o tsp_call.o
+a - prob_io.o
+a - tsp_lp.o
+a - qsparse.o
+a - cliqhash.o
+a - generate.o
+a - ex_price.o
+a - cutcall.o
+a - tighten.o
+a - cutpool.o
+a - branch.o
+a - control.o
+a - cliqwork.o
+a - ddecker.o
+a - teething.o
+a - bcontrol.o
+a - xtour.o
+a - skeleton.o
+a - blkcomb.o
+a - growcomb.o
+a - combcliq.o
+a - prclique.o
+a - blossom.o
+a - tsp_call.o
+ranlib ../concorde.a
+make[1]: Leaving directory '/global/common/cori/contrib/wfirst/wfirst_sim_v4/concorde/TSP'
+make[1]: Entering directory '/global/common/cori/contrib/wfirst/wfirst_sim_v4/concorde/UTIL'
+gcc -g -O2  -I../INCLUDE -I../INCLUDE   -c -o allocrus.o allocrus.c
+gcc -g -O2  -I../INCLUDE -I../INCLUDE   -c -o bgetopt.o bgetopt.c
+gcc -g -O2  -I../INCLUDE -I../INCLUDE   -c -o dheaps_i.o dheaps_i.c
+gcc -g -O2  -I../INCLUDE -I../INCLUDE   -c -o edgelen.o edgelen.c
+gcc -g -O2  -I../INCLUDE -I../INCLUDE   -c -o edgemap.o edgemap.c
+gcc -g -O2  -I../INCLUDE -I../INCLUDE   -c -o edgeutil.o edgeutil.c
+gcc -g -O2  -I../INCLUDE -I../INCLUDE   -c -o eunion.o eunion.c
+gcc -g -O2  -I../INCLUDE -I../INCLUDE   -c -o fastread.o fastread.c
+gcc -g -O2  -I../INCLUDE -I../INCLUDE   -c -o getdata.o getdata.c
+gcc -g -O2  -I../INCLUDE -I../INCLUDE   -c -o safe_io.o safe_io.c
+gcc -g -O2  -I../INCLUDE -I../INCLUDE   -c -o sortrus.o sortrus.c
+gcc -g -O2  -I../INCLUDE -I../INCLUDE   -c -o subdiv.o subdiv.c
+gcc -g -O2  -I../INCLUDE -I../INCLUDE   -c -o urandom.o urandom.c
+gcc -g -O2  -I../INCLUDE -I../INCLUDE   -c -o util.o util.c
+gcc -g -O2  -I../INCLUDE -I../INCLUDE   -c -o zeit.o zeit.c
+gcc -g -O2  -I../INCLUDE -I../INCLUDE   -c -o genhash.o genhash.c
+gcc -g -O2  -I../INCLUDE -I../INCLUDE   -c -o priority.o priority.c
+gcc -g -O2  -I../INCLUDE -I../INCLUDE   -c -o signal.o signal.c
+ar rv ../concorde.a allocrus.o bgetopt.o dheaps_i.o edgelen.o edgemap.o edgeutil.o eunion.o fastread.o getdata.o safe_io.o sortrus.o subdiv.o urandom.o util.o zeit.o genhash.o priority.o signal.o
+a - allocrus.o
+a - bgetopt.o
+a - dheaps_i.o
+a - edgelen.o
+a - edgemap.o
+a - edgeutil.o
+a - eunion.o
+a - fastread.o
+a - getdata.o
+a - safe_io.o
+a - sortrus.o
+a - subdiv.o
+a - urandom.o
+a - util.o
+a - zeit.o
+a - genhash.o
+a - priority.o
+a - signal.o
+ranlib ../concorde.a
+make[1]: Leaving directory '/global/common/cori/contrib/wfirst/wfirst_sim_v4/concorde/UTIL'
+make[1]: Entering directory '/global/common/cori/contrib/wfirst/wfirst_sim_v4/concorde/VERIFY'
+gcc -g -O2  -I../INCLUDE -I../INCLUDE   -c -o verify.o verify.c
+ar rv ../concorde.a verify.o
+a - verify.o
+ranlib ../concorde.a
+make[1]: Leaving directory '/global/common/cori/contrib/wfirst/wfirst_sim_v4/concorde/VERIFY'
+for i in BIGGUY   LOCALCUT COMBS    CUT      EDGEGEN  FMATCH HELDKARP KDTREE   LINKERN  LP       PQ       TINY     TOOLS TSP      UTIL     VERIFY; do ( cd $i; make all ); done
+make[1]: Entering directory '/global/common/cori/contrib/wfirst/wfirst_sim_v4/concorde/BIGGUY'
+ar rv bigguy.a bigguy.o
+ar: creating bigguy.a
+a - bigguy.o
+ranlib bigguy.a
+make[1]: Leaving directory '/global/common/cori/contrib/wfirst/wfirst_sim_v4/concorde/BIGGUY'
+make[1]: Entering directory '/global/common/cori/contrib/wfirst/wfirst_sim_v4/concorde/LOCALCUT'
+gcc -g -O2  -I../INCLUDE -I../INCLUDE -I.   -c -o loc_main.o loc_main.c
+ar rv localcut.a localcut.o chunks.o first.o lift.o tsporacl.o intmat.o separate.o
+ar: creating localcut.a
+a - localcut.o
+a - chunks.o
+a - first.o
+a - lift.o
+a - tsporacl.o
+a - intmat.o
+a - separate.o
+ranlib localcut.a
+cd ../TSP; make tsp.a
+make[2]: Entering directory '/global/common/cori/contrib/wfirst/wfirst_sim_v4/concorde/TSP'
+ar rv tsp.a prob_io.o tsp_lp.o qsparse.o cliqhash.o generate.o ex_price.o cutcall.o tighten.o cutpool.o branch.o control.o cliqwork.o ddecker.o teething.o bcontrol.o xtour.o skeleton.o blkcomb.o growcomb.o combcliq.o prclique.o blossom.o tsp_call.o
+ar: creating tsp.a
+a - prob_io.o
+a - tsp_lp.o
+a - qsparse.o
+a - cliqhash.o
+a - generate.o
+a - ex_price.o
+a - cutcall.o
+a - tighten.o
+a - cutpool.o
+a - branch.o
+a - control.o
+a - cliqwork.o
+a - ddecker.o
+a - teething.o
+a - bcontrol.o
+a - xtour.o
+a - skeleton.o
+a - blkcomb.o
+a - growcomb.o
+a - combcliq.o
+a - prclique.o
+a - blossom.o
+a - tsp_call.o
+ranlib tsp.a
+make[2]: Leaving directory '/global/common/cori/contrib/wfirst/wfirst_sim_v4/concorde/TSP'
+cd ../PQ; make pq.a
+make[2]: Entering directory '/global/common/cori/contrib/wfirst/wfirst_sim_v4/concorde/PQ'
+ar rv pq.a pq.o cuttree.o consec1.o necklace.o
+ar: creating pq.a
+a - pq.o
+a - cuttree.o
+a - consec1.o
+a - necklace.o
+ranlib pq.a
+make[2]: Leaving directory '/global/common/cori/contrib/wfirst/wfirst_sim_v4/concorde/PQ'
+cd ../EDGEGEN; make edgegen.a
+make[2]: Entering directory '/global/common/cori/contrib/wfirst/wfirst_sim_v4/concorde/EDGEGEN'
+ar rv edgegen.a edgegen.o xnear.o delaunay.o mlinkern.o
+ar: creating edgegen.a
+a - edgegen.o
+a - xnear.o
+a - delaunay.o
+a - mlinkern.o
+ranlib edgegen.a
+make[2]: Leaving directory '/global/common/cori/contrib/wfirst/wfirst_sim_v4/concorde/EDGEGEN'
+cd ../LINKERN; make linkern.a
+make[2]: Entering directory '/global/common/cori/contrib/wfirst/wfirst_sim_v4/concorde/LINKERN'
+ar rv linkern.a linkern.o linkern_fixed.o linkern_path.o flip_two.o
+ar: creating linkern.a
+a - linkern.o
+a - linkern_fixed.o
+a - linkern_path.o
+a - flip_two.o
+ranlib linkern.a
+make[2]: Leaving directory '/global/common/cori/contrib/wfirst/wfirst_sim_v4/concorde/LINKERN'
+cd ../VERIFY; make verify.a
+make[2]: Entering directory '/global/common/cori/contrib/wfirst/wfirst_sim_v4/concorde/VERIFY'
+ar rv verify.a verify.o
+ar: creating verify.a
+a - verify.o
+ranlib verify.a
+make[2]: Leaving directory '/global/common/cori/contrib/wfirst/wfirst_sim_v4/concorde/VERIFY'
+cd ../FMATCH; make fmatch.a
+make[2]: Entering directory '/global/common/cori/contrib/wfirst/wfirst_sim_v4/concorde/FMATCH'
+ar rv fmatch.a fmatch.o
+ar: creating fmatch.a
+a - fmatch.o
+ranlib fmatch.a
+make[2]: Leaving directory '/global/common/cori/contrib/wfirst/wfirst_sim_v4/concorde/FMATCH'
+cd ../KDTREE; make kdtree.a
+make[2]: Entering directory '/global/common/cori/contrib/wfirst/wfirst_sim_v4/concorde/KDTREE'
+ar rv kdtree.a kdbuild.o kdnear.o kdspan.o kdtwoopt.o
+ar: creating kdtree.a
+a - kdbuild.o
+a - kdnear.o
+a - kdspan.o
+a - kdtwoopt.o
+ranlib kdtree.a
+make[2]: Leaving directory '/global/common/cori/contrib/wfirst/wfirst_sim_v4/concorde/KDTREE'
+cd ../COMBS; make combs.a
+make[2]: Entering directory '/global/common/cori/contrib/wfirst/wfirst_sim_v4/concorde/COMBS'
+ar rv combs.a block.o dngreedy.o
+ar: creating combs.a
+a - block.o
+a - dngreedy.o
+ranlib combs.a
+make[2]: Leaving directory '/global/common/cori/contrib/wfirst/wfirst_sim_v4/concorde/COMBS'
+cd ../TINY; make tiny.a
+make[2]: Entering directory '/global/common/cori/contrib/wfirst/wfirst_sim_v4/concorde/TINY'
+ar rv tiny.a tinytsp.o bnbmsp.o
+ar: creating tiny.a
+a - tinytsp.o
+a - bnbmsp.o
+ranlib tiny.a
+make[2]: Leaving directory '/global/common/cori/contrib/wfirst/wfirst_sim_v4/concorde/TINY'
+cd ../LP; make lp.a
+make[2]: Entering directory '/global/common/cori/contrib/wfirst/wfirst_sim_v4/concorde/LP'
+ar rv lp.a lpnone.o
+ar: creating lp.a
+a - lpnone.o
+ranlib lp.a
+make[2]: Leaving directory '/global/common/cori/contrib/wfirst/wfirst_sim_v4/concorde/LP'
+cd ../BIGGUY; make bigguy.a
+make[2]: Entering directory '/global/common/cori/contrib/wfirst/wfirst_sim_v4/concorde/BIGGUY'
+make[2]: 'bigguy.a' is up to date.
+make[2]: Leaving directory '/global/common/cori/contrib/wfirst/wfirst_sim_v4/concorde/BIGGUY'
+cd ../UTIL; make util.a
+make[2]: Entering directory '/global/common/cori/contrib/wfirst/wfirst_sim_v4/concorde/UTIL'
+ar rv util.a allocrus.o bgetopt.o dheaps_i.o edgelen.o edgemap.o edgeutil.o eunion.o fastread.o getdata.o safe_io.o sortrus.o subdiv.o urandom.o util.o zeit.o genhash.o priority.o signal.o
+ar: creating util.a
+a - allocrus.o
+a - bgetopt.o
+a - dheaps_i.o
+a - edgelen.o
+a - edgemap.o
+a - edgeutil.o
+a - eunion.o
+a - fastread.o
+a - getdata.o
+a - safe_io.o
+a - sortrus.o
+a - subdiv.o
+a - urandom.o
+a - util.o
+a - zeit.o
+a - genhash.o
+a - priority.o
+a - signal.o
+ranlib util.a
+make[2]: Leaving directory '/global/common/cori/contrib/wfirst/wfirst_sim_v4/concorde/UTIL'
+cd ../HELDKARP; make heldkarp.a
+make[2]: Entering directory '/global/common/cori/contrib/wfirst/wfirst_sim_v4/concorde/HELDKARP'
+ar rv heldkarp.a heldkarp.o
+ar: creating heldkarp.a
+a - heldkarp.o
+ranlib heldkarp.a
+make[2]: Leaving directory '/global/common/cori/contrib/wfirst/wfirst_sim_v4/concorde/HELDKARP'
+cd ../CUT; make cut.a
+make[2]: Entering directory '/global/common/cori/contrib/wfirst/wfirst_sim_v4/concorde/CUT'
+ar rv cut.a segments.o connect.o shrink.o mincut.o cut_st.o gomoryhu.o
+ar: creating cut.a
+a - segments.o
+a - connect.o
+a - shrink.o
+a - mincut.o
+a - cut_st.o
+a - gomoryhu.o
+ranlib cut.a
+make[2]: Leaving directory '/global/common/cori/contrib/wfirst/wfirst_sim_v4/concorde/CUT'
+gcc -g -O2  -o localcut loc_main.o localcut.a ../TSP/tsp.a           ../PQ/pq.a ../EDGEGEN/edgegen.a   ../LINKERN/linkern.a ../VERIFY/verify.a     ../FMATCH/fmatch.a ../KDTREE/kdtree.a     ../COMBS/combs.a ../TINY/tiny.a         ../LP/lp.a ../BIGGUY/bigguy.a     ../UTIL/util.a ../HELDKARP/heldkarp.a ../CUT/cut.a ../TSP/tsp.a           ../CUT/cut.a  -liberty -lm 
+make[1]: Leaving directory '/global/common/cori/contrib/wfirst/wfirst_sim_v4/concorde/LOCALCUT'
+make[1]: Entering directory '/global/common/cori/contrib/wfirst/wfirst_sim_v4/concorde/COMBS'
+make[1]: Nothing to be done for 'all'.
+make[1]: Leaving directory '/global/common/cori/contrib/wfirst/wfirst_sim_v4/concorde/COMBS'
+make[1]: Entering directory '/global/common/cori/contrib/wfirst/wfirst_sim_v4/concorde/CUT'
+gcc -g -O2  -I../INCLUDE -I../INCLUDE   -c -o mc_main.o mc_main.c
+cd ../UTIL; make util.a
+make[2]: Entering directory '/global/common/cori/contrib/wfirst/wfirst_sim_v4/concorde/UTIL'
+make[2]: 'util.a' is up to date.
+make[2]: Leaving directory '/global/common/cori/contrib/wfirst/wfirst_sim_v4/concorde/UTIL'
+gcc -g -O2  -o mincut mc_main.o cut.a ../UTIL/util.a -liberty -lm 
+make[1]: Leaving directory '/global/common/cori/contrib/wfirst/wfirst_sim_v4/concorde/CUT'
+make[1]: Entering directory '/global/common/cori/contrib/wfirst/wfirst_sim_v4/concorde/EDGEGEN'
+gcc -g -O2  -I../INCLUDE -I../INCLUDE   -c -o eg_main.o eg_main.c
+cd ../KDTREE; make kdtree.a
+make[2]: Entering directory '/global/common/cori/contrib/wfirst/wfirst_sim_v4/concorde/KDTREE'
+make[2]: 'kdtree.a' is up to date.
+make[2]: Leaving directory '/global/common/cori/contrib/wfirst/wfirst_sim_v4/concorde/KDTREE'
+cd ../FMATCH; make fmatch.a
+make[2]: Entering directory '/global/common/cori/contrib/wfirst/wfirst_sim_v4/concorde/FMATCH'
+make[2]: 'fmatch.a' is up to date.
+make[2]: Leaving directory '/global/common/cori/contrib/wfirst/wfirst_sim_v4/concorde/FMATCH'
+cd ../LINKERN; make linkern.a
+make[2]: Entering directory '/global/common/cori/contrib/wfirst/wfirst_sim_v4/concorde/LINKERN'
+make[2]: 'linkern.a' is up to date.
+make[2]: Leaving directory '/global/common/cori/contrib/wfirst/wfirst_sim_v4/concorde/LINKERN'
+cd ../UTIL; make util.a
+make[2]: Entering directory '/global/common/cori/contrib/wfirst/wfirst_sim_v4/concorde/UTIL'
+make[2]: 'util.a' is up to date.
+make[2]: Leaving directory '/global/common/cori/contrib/wfirst/wfirst_sim_v4/concorde/UTIL'
+gcc -g -O2  -o edgegen eg_main.o edgegen.a ../KDTREE/kdtree.a   ../FMATCH/fmatch.a ../LINKERN/linkern.a ../UTIL/util.a -liberty -lm 
+make[1]: Leaving directory '/global/common/cori/contrib/wfirst/wfirst_sim_v4/concorde/EDGEGEN'
+make[1]: Entering directory '/global/common/cori/contrib/wfirst/wfirst_sim_v4/concorde/FMATCH'
+gcc -g -O2  -I../INCLUDE -I../INCLUDE   -c -o fm_main.o fm_main.c
+cd ../EDGEGEN; make edgegen.a
+make[2]: Entering directory '/global/common/cori/contrib/wfirst/wfirst_sim_v4/concorde/EDGEGEN'
+make[2]: 'edgegen.a' is up to date.
+make[2]: Leaving directory '/global/common/cori/contrib/wfirst/wfirst_sim_v4/concorde/EDGEGEN'
+cd ../KDTREE; make kdtree.a
+make[2]: Entering directory '/global/common/cori/contrib/wfirst/wfirst_sim_v4/concorde/KDTREE'
+make[2]: 'kdtree.a' is up to date.
+make[2]: Leaving directory '/global/common/cori/contrib/wfirst/wfirst_sim_v4/concorde/KDTREE'
+cd ../LINKERN; make linkern.a
+make[2]: Entering directory '/global/common/cori/contrib/wfirst/wfirst_sim_v4/concorde/LINKERN'
+make[2]: 'linkern.a' is up to date.
+make[2]: Leaving directory '/global/common/cori/contrib/wfirst/wfirst_sim_v4/concorde/LINKERN'
+cd ../UTIL; make util.a
+make[2]: Entering directory '/global/common/cori/contrib/wfirst/wfirst_sim_v4/concorde/UTIL'
+make[2]: 'util.a' is up to date.
+make[2]: Leaving directory '/global/common/cori/contrib/wfirst/wfirst_sim_v4/concorde/UTIL'
+gcc -g -O2  -o fmatch fm_main.o fmatch.a ../EDGEGEN/edgegen.a ../KDTREE/kdtree.a ../LINKERN/linkern.a ../UTIL/util.a -liberty -lm 
+make[1]: Leaving directory '/global/common/cori/contrib/wfirst/wfirst_sim_v4/concorde/FMATCH'
+make[1]: Entering directory '/global/common/cori/contrib/wfirst/wfirst_sim_v4/concorde/HELDKARP'
+make[1]: Nothing to be done for 'all'.
+make[1]: Leaving directory '/global/common/cori/contrib/wfirst/wfirst_sim_v4/concorde/HELDKARP'
+make[1]: Entering directory '/global/common/cori/contrib/wfirst/wfirst_sim_v4/concorde/KDTREE'
+make[1]: Nothing to be done for 'all'.
+make[1]: Leaving directory '/global/common/cori/contrib/wfirst/wfirst_sim_v4/concorde/KDTREE'
+make[1]: Entering directory '/global/common/cori/contrib/wfirst/wfirst_sim_v4/concorde/LINKERN'
+gcc -g -O2  -I../INCLUDE -I../INCLUDE   -c -o lk_main.o lk_main.c
+cd ../EDGEGEN; make edgegen.a
+make[2]: Entering directory '/global/common/cori/contrib/wfirst/wfirst_sim_v4/concorde/EDGEGEN'
+make[2]: 'edgegen.a' is up to date.
+make[2]: Leaving directory '/global/common/cori/contrib/wfirst/wfirst_sim_v4/concorde/EDGEGEN'
+cd ../KDTREE; make kdtree.a
+make[2]: Entering directory '/global/common/cori/contrib/wfirst/wfirst_sim_v4/concorde/KDTREE'
+make[2]: 'kdtree.a' is up to date.
+make[2]: Leaving directory '/global/common/cori/contrib/wfirst/wfirst_sim_v4/concorde/KDTREE'
+cd ../FMATCH; make fmatch.a
+make[2]: Entering directory '/global/common/cori/contrib/wfirst/wfirst_sim_v4/concorde/FMATCH'
+make[2]: 'fmatch.a' is up to date.
+make[2]: Leaving directory '/global/common/cori/contrib/wfirst/wfirst_sim_v4/concorde/FMATCH'
+cd ../UTIL; make util.a
+make[2]: Entering directory '/global/common/cori/contrib/wfirst/wfirst_sim_v4/concorde/UTIL'
+make[2]: 'util.a' is up to date.
+make[2]: Leaving directory '/global/common/cori/contrib/wfirst/wfirst_sim_v4/concorde/UTIL'
+gcc -g -O2  -o linkern lk_main.o linkern.a ../EDGEGEN/edgegen.a ../KDTREE/kdtree.a ../FMATCH/fmatch.a   ../UTIL/util.a -liberty -lm 
+make[1]: Leaving directory '/global/common/cori/contrib/wfirst/wfirst_sim_v4/concorde/LINKERN'
+make[1]: Entering directory '/global/common/cori/contrib/wfirst/wfirst_sim_v4/concorde/LP'
+make[1]: Nothing to be done for 'all'.
+make[1]: Leaving directory '/global/common/cori/contrib/wfirst/wfirst_sim_v4/concorde/LP'
+make[1]: Entering directory '/global/common/cori/contrib/wfirst/wfirst_sim_v4/concorde/PQ'
+make[1]: Nothing to be done for 'all'.
+make[1]: Leaving directory '/global/common/cori/contrib/wfirst/wfirst_sim_v4/concorde/PQ'
+make[1]: Entering directory '/global/common/cori/contrib/wfirst/wfirst_sim_v4/concorde/TINY'
+make[1]: Nothing to be done for 'all'.
+make[1]: Leaving directory '/global/common/cori/contrib/wfirst/wfirst_sim_v4/concorde/TINY'
+make[1]: Entering directory '/global/common/cori/contrib/wfirst/wfirst_sim_v4/concorde/TOOLS'
+gcc -g -O2  -I../INCLUDE -I../INCLUDE   -c -o showres.o showres.c
+cd ../KDTREE; make kdtree.a
+make[2]: Entering directory '/global/common/cori/contrib/wfirst/wfirst_sim_v4/concorde/KDTREE'
+make[2]: 'kdtree.a' is up to date.
+make[2]: Leaving directory '/global/common/cori/contrib/wfirst/wfirst_sim_v4/concorde/KDTREE'
+cd ../UTIL; make util.a
+make[2]: Entering directory '/global/common/cori/contrib/wfirst/wfirst_sim_v4/concorde/UTIL'
+make[2]: 'util.a' is up to date.
+make[2]: Leaving directory '/global/common/cori/contrib/wfirst/wfirst_sim_v4/concorde/UTIL'
+cd ../EDGEGEN; make edgegen.a
+make[2]: Entering directory '/global/common/cori/contrib/wfirst/wfirst_sim_v4/concorde/EDGEGEN'
+make[2]: 'edgegen.a' is up to date.
+make[2]: Leaving directory '/global/common/cori/contrib/wfirst/wfirst_sim_v4/concorde/EDGEGEN'
+cd ../LINKERN; make linkern.a
+make[2]: Entering directory '/global/common/cori/contrib/wfirst/wfirst_sim_v4/concorde/LINKERN'
+make[2]: 'linkern.a' is up to date.
+make[2]: Leaving directory '/global/common/cori/contrib/wfirst/wfirst_sim_v4/concorde/LINKERN'
+cd ../FMATCH; make fmatch.a
+make[2]: Entering directory '/global/common/cori/contrib/wfirst/wfirst_sim_v4/concorde/FMATCH'
+make[2]: 'fmatch.a' is up to date.
+make[2]: Leaving directory '/global/common/cori/contrib/wfirst/wfirst_sim_v4/concorde/FMATCH'
+gcc -g -O2  -o showres showres.o ../KDTREE/kdtree.a ../UTIL/util.a ../EDGEGEN/edgegen.a ../LINKERN/linkern.a ../FMATCH/fmatch.a ../KDTREE/kdtree.a ../UTIL/util.a -liberty -lm 
+gcc -g -O2  -I../INCLUDE -I../INCLUDE   -c -o tourchk.o tourchk.c
+gcc -g -O2  -o tourchk tourchk.o ../KDTREE/kdtree.a ../UTIL/util.a ../EDGEGEN/edgegen.a ../LINKERN/linkern.a ../FMATCH/fmatch.a ../KDTREE/kdtree.a ../UTIL/util.a -liberty -lm 
+gcc -g -O2  -I../INCLUDE -I../INCLUDE   -c -o tourlen.o tourlen.c
+gcc -g -O2  -o tourlen tourlen.o ../KDTREE/kdtree.a ../UTIL/util.a ../EDGEGEN/edgegen.a ../LINKERN/linkern.a ../FMATCH/fmatch.a ../KDTREE/kdtree.a ../UTIL/util.a -liberty -lm 
+gcc -g -O2  -I../INCLUDE -I../INCLUDE   -c -o prob2tsp.o prob2tsp.c
+gcc -g -O2  -o prob2tsp prob2tsp.o ../KDTREE/kdtree.a ../UTIL/util.a ../EDGEGEN/edgegen.a ../LINKERN/linkern.a ../FMATCH/fmatch.a ../KDTREE/kdtree.a ../UTIL/util.a -liberty -lm 
+gcc -g -O2  -I../INCLUDE -I../INCLUDE   -c -o edg2len.o edg2len.c
+gcc -g -O2  -o edg2len edg2len.o ../KDTREE/kdtree.a ../UTIL/util.a ../EDGEGEN/edgegen.a ../LINKERN/linkern.a ../FMATCH/fmatch.a ../KDTREE/kdtree.a ../UTIL/util.a -liberty -lm 
+gcc -g -O2  -I../INCLUDE -I../INCLUDE   -c -o edgunion.o edgunion.c
+gcc -g -O2  -o edgunion edgunion.o ../KDTREE/kdtree.a ../UTIL/util.a ../EDGEGEN/edgegen.a ../LINKERN/linkern.a ../FMATCH/fmatch.a ../KDTREE/kdtree.a ../UTIL/util.a -liberty -lm 
+gcc -g -O2  -I../INCLUDE -I../INCLUDE   -c -o fconvert.o fconvert.c
+gcc -g -O2  -o fconvert fconvert.o ../KDTREE/kdtree.a ../UTIL/util.a ../EDGEGEN/edgegen.a ../LINKERN/linkern.a ../FMATCH/fmatch.a ../KDTREE/kdtree.a ../UTIL/util.a -liberty -lm 
+make[1]: Leaving directory '/global/common/cori/contrib/wfirst/wfirst_sim_v4/concorde/TOOLS'
+make[1]: Entering directory '/global/common/cori/contrib/wfirst/wfirst_sim_v4/concorde/TSP'
+gcc -g -O2  -I../INCLUDE -I../INCLUDE   -c -o concorde.o concorde.c
+cd ../PQ; make pq.a
+make[2]: Entering directory '/global/common/cori/contrib/wfirst/wfirst_sim_v4/concorde/PQ'
+make[2]: 'pq.a' is up to date.
+make[2]: Leaving directory '/global/common/cori/contrib/wfirst/wfirst_sim_v4/concorde/PQ'
+cd ../VERIFY; make verify.a
+make[2]: Entering directory '/global/common/cori/contrib/wfirst/wfirst_sim_v4/concorde/VERIFY'
+make[2]: 'verify.a' is up to date.
+make[2]: Leaving directory '/global/common/cori/contrib/wfirst/wfirst_sim_v4/concorde/VERIFY'
+cd ../LOCALCUT; make localcut.a
+make[2]: Entering directory '/global/common/cori/contrib/wfirst/wfirst_sim_v4/concorde/LOCALCUT'
+make[2]: 'localcut.a' is up to date.
+make[2]: Leaving directory '/global/common/cori/contrib/wfirst/wfirst_sim_v4/concorde/LOCALCUT'
+cd ../TINY; make tiny.a
+make[2]: Entering directory '/global/common/cori/contrib/wfirst/wfirst_sim_v4/concorde/TINY'
+make[2]: 'tiny.a' is up to date.
+make[2]: Leaving directory '/global/common/cori/contrib/wfirst/wfirst_sim_v4/concorde/TINY'
+cd ../LINKERN; make linkern.a
+make[2]: Entering directory '/global/common/cori/contrib/wfirst/wfirst_sim_v4/concorde/LINKERN'
+make[2]: 'linkern.a' is up to date.
+make[2]: Leaving directory '/global/common/cori/contrib/wfirst/wfirst_sim_v4/concorde/LINKERN'
+cd ../EDGEGEN; make edgegen.a
+make[2]: Entering directory '/global/common/cori/contrib/wfirst/wfirst_sim_v4/concorde/EDGEGEN'
+make[2]: 'edgegen.a' is up to date.
+make[2]: Leaving directory '/global/common/cori/contrib/wfirst/wfirst_sim_v4/concorde/EDGEGEN'
+cd ../KDTREE; make kdtree.a
+make[2]: Entering directory '/global/common/cori/contrib/wfirst/wfirst_sim_v4/concorde/KDTREE'
+make[2]: 'kdtree.a' is up to date.
+make[2]: Leaving directory '/global/common/cori/contrib/wfirst/wfirst_sim_v4/concorde/KDTREE'
+cd ../FMATCH; make fmatch.a
+make[2]: Entering directory '/global/common/cori/contrib/wfirst/wfirst_sim_v4/concorde/FMATCH'
+make[2]: 'fmatch.a' is up to date.
+make[2]: Leaving directory '/global/common/cori/contrib/wfirst/wfirst_sim_v4/concorde/FMATCH'
+cd ../UTIL; make util.a
+make[2]: Entering directory '/global/common/cori/contrib/wfirst/wfirst_sim_v4/concorde/UTIL'
+make[2]: 'util.a' is up to date.
+make[2]: Leaving directory '/global/common/cori/contrib/wfirst/wfirst_sim_v4/concorde/UTIL'
+cd ../BIGGUY; make bigguy.a
+make[2]: Entering directory '/global/common/cori/contrib/wfirst/wfirst_sim_v4/concorde/BIGGUY'
+make[2]: 'bigguy.a' is up to date.
+make[2]: Leaving directory '/global/common/cori/contrib/wfirst/wfirst_sim_v4/concorde/BIGGUY'
+cd ../CUT; make cut.a
+make[2]: Entering directory '/global/common/cori/contrib/wfirst/wfirst_sim_v4/concorde/CUT'
+make[2]: 'cut.a' is up to date.
+make[2]: Leaving directory '/global/common/cori/contrib/wfirst/wfirst_sim_v4/concorde/CUT'
+cd ../HELDKARP; make heldkarp.a
+make[2]: Entering directory '/global/common/cori/contrib/wfirst/wfirst_sim_v4/concorde/HELDKARP'
+make[2]: 'heldkarp.a' is up to date.
+make[2]: Leaving directory '/global/common/cori/contrib/wfirst/wfirst_sim_v4/concorde/HELDKARP'
+cd ../LP; make lp.a
+make[2]: Entering directory '/global/common/cori/contrib/wfirst/wfirst_sim_v4/concorde/LP'
+make[2]: 'lp.a' is up to date.
+make[2]: Leaving directory '/global/common/cori/contrib/wfirst/wfirst_sim_v4/concorde/LP'
+cd ../COMBS; make combs.a
+make[2]: Entering directory '/global/common/cori/contrib/wfirst/wfirst_sim_v4/concorde/COMBS'
+make[2]: 'combs.a' is up to date.
+make[2]: Leaving directory '/global/common/cori/contrib/wfirst/wfirst_sim_v4/concorde/COMBS'
+gcc -g -O2  -o concorde concorde.o tsp.a ../PQ/pq.a             ../VERIFY/verify.a ../LOCALCUT/localcut.a   ../TINY/tiny.a ../LINKERN/linkern.a   ../EDGEGEN/edgegen.a ../KDTREE/kdtree.a     ../FMATCH/fmatch.a ../UTIL/util.a ../BIGGUY/bigguy.a     ../CUT/cut.a ../HELDKARP/heldkarp.a ../LP/lp.a ../COMBS/combs.a  -liberty -lm 
+make[1]: Leaving directory '/global/common/cori/contrib/wfirst/wfirst_sim_v4/concorde/TSP'
+make[1]: Entering directory '/global/common/cori/contrib/wfirst/wfirst_sim_v4/concorde/UTIL'
+make[1]: Nothing to be done for 'all'.
+make[1]: Leaving directory '/global/common/cori/contrib/wfirst/wfirst_sim_v4/concorde/UTIL'
+make[1]: Entering directory '/global/common/cori/contrib/wfirst/wfirst_sim_v4/concorde/VERIFY'
+make[1]: Nothing to be done for 'all'.
+make[1]: Leaving directory '/global/common/cori/contrib/wfirst/wfirst_sim_v4/concorde/VERIFY'
+
+Done with installation.
+
+*** Be sure to source /global/common/cori/contrib/wfirst/wfirst_sim_v4/work/bash_wfirst.bash before using the code ***
